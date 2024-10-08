@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blood_nav"
+    app:startDestination="@id/bloodRequestFragment">
+
+    <fragment
+        android:id="@+id/bloodRequestFragment"
+        android:name="com.example.bloodbank.UI.Blood.BloodRequestFragment"
+        android:label="fragment_blood_request"
+        tools:layout="@layout/fragment_blood_request" />
+</navigation>

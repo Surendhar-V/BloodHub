@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hos_nav"
+    app:startDestination="@id/hosHomeFragment">
+
+    <fragment
+        android:id="@+id/hosHomeFragment"
+        android:name="com.example.bloodbank.UI.Hospital.HospitalHomeFragment"
+        android:label="fragment_hos_home"
+        tools:layout="@layout/fragment_hos_home" />
+    <fragment
+        android:id="@+id/hopRequestNReply"
+        android:name="com.example.bloodbank.UI.Hospital.HospitalMenuFragment"
+        android:label="fragment_hop_request_n_reply"
+        tools:layout="@layout/fragment_menu_hospital" />
+
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.bloodbank.UI.Login.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_hospitalFragment"
+            app:destination="@id/hospitalLoginFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bloodLoginFragment"
+            app:destination="@id/bloodLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hospitalLoginFragment"
+        android:name="com.example.bloodbank.UI.Login.HospitalLoginFragment"
+        android:label="fragment_login_hospital"
+        tools:layout="@layout/fragment_login_hospital" />
+    <fragment
+        android:id="@+id/bloodLoginFragment"
+        android:name="com.example.bloodbank.UI.Login.BloodLoginFragment"
+        android:label="fragment_blood_bank"
+        tools:layout="@layout/fragment_login_blood" />
+</navigation>

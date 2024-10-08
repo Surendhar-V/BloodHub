@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "928820615235",
+    "firebase_url": "https://bloodybae-26032004-default-rtdb.firebaseio.com",
+    "project_id": "bloodybae-26032004",
+    "storage_bucket": "bloodybae-26032004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928820615235:android:d4e1f4e4f0f3019c68dcf6",
+        "android_client_info": {
+          "package_name": "com.example.bloodbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLKo3PbtXOGxCFeotSqVdUrD53v1UqKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
