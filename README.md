@@ -58,3 +58,9 @@ To run this project locally:
    git clone https://github.com/VSurendhar/BloodHub.git
 3. Open the project in Android Studio and configure Firebase with your project credentials.
 4. Run the app on an emulator or an Android device.
+
+
+## 📧 Contact
+For any questions or suggestions, please reach out to vsurendharm@gmail.com.
+
+
